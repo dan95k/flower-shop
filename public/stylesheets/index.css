@@ -1,0 +1,191 @@
+html{
+	height: 100%;
+	max-height: 100%;
+}
+body{
+font-family:Ariel,Helvatica,sans-serif;
+font-size:15px;
+line-height: 1.5;
+padding: 0;
+margin:0;
+background: #012172;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+ul a:hover{
+	color:#e8491d;
+	font-weight: bold;
+	font-size:20px;
+}
+.button1{
+	height:38px;
+	background: #e8491d;
+	border:0;
+	padding:0 20px;
+	font-size: 15px;
+	color:white;
+}
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+header{
+	background: #1f1641;
+	color:white;
+	padding: 10px;
+	min-height: 40px;
+	border-bottom: 1px solid white;
+}
+header a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding:0 20px;
+}
+header #branding{
+	float:left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
+.highlight{
+	color:#e8491d;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background: url('../resources/bg2.jpg') no-repeat 0 -100px;
+	background-size: cover;
+	text-align: center;
+	color:white;
+}
+#showcase h1{
+	margin-top:80px;
+	font-size:70px;
+	margin-bottom:10px;
+	text-shadow: 0 0 15px black;
+	font-family: 'Lobster', cursive;
+}
+#showcase p{
+	font-size:20px;
+	text-shadow: 0 0 15px black;
+}
+#newsletter{
+	color:white;
+	background:#1f1641;
+}
+#newsletter h1{
+	float:left;
+}
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+#newsletter input[type='email']{
+	margin-right:5px;
+	padding-top:5px;
+	height:28px;
+	width:250px;
+	outline: none;
+}
+#boxes{
+	margin-top:20px;
+}
+#boxes .box{
+	float:left;
+	width:20%;
+	padding:25px 30px;
+	text-align: center;
+	color:#D5D5D5;
+}
+#boxes .box .icon{
+	text-shadow: 0 0 10px black;
+}
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:white;
+	background: #1f1641;
+	text-align: center;
+}
+.header-block{
+    margin: auto;
+    width: 25%;
+    padding: 0px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top:2em;
+    font-size: 25px;
+    color:white;
+}
+.flowerbox{
+	width:  15%;
+    height: 300px;
+	float:left;
+	padding-top:10px;
+	margin:15px 30px;
+	text-align: center;
+	color:#D5D5D5;
+	background: white;
+	border-radius: 5%;
+	background: #DBDBDB;
+	border: 2px solid black;
+}
+.flowerbox:hover{
+	box-shadow: 0 0 15px #40CCD9;
+}
+.flowerbox .flowericon{
+    width:  80%;
+    height: 60%;
+    border-radius: 50%;
+    text-align: center;
+    border:2px solid black;
+}
+.flowerbox .info{
+	padding:0;
+	margin:0 0;
+	margin-top:30px;
+	line-height: 0.2;
+	text-align: left;
+	padding-left:15px;
+	color:#5A5A5A;
+	font-size:13px;
+}
+.yes{
+	color:#16C30D;
+}
+.no{
+	color:#BF1111;
+}
+.button2{
+	background: #1C9692;
+	border:1px solid black;
+	height: 10%;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+}
+.about-container{
+	width:30%;
+	margin:auto;
+	background: #DBDBDB;
+	border:4px solid black;
+	border-radius: 5%;
+	padding: 10px 30px;
+	font-size: 20px;
+}
